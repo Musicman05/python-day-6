@@ -60,6 +60,16 @@ def show_answer(card):
 
 
 def main():
-    
+    chosen_card = get_random_question(flashcards)
+    show_question(chosen_card)
+  user_choice =  input("Enter Q to Quit, type anything else to continue")
+
+
+    if user_choisce == "Q":
+        quit_app()
+
+    else:
+        show_answer(chosen_card)
+
 
     main():
